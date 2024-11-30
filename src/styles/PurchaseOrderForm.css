@@ -1,0 +1,156 @@
+   .purchase-order-details {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .form-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444;
+    text-align: left;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  input[readonly] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+
+ .form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+ .add-another-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+ .talent-details-row h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+  .talent-details-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+  }
+  button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .add-another-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-another-btn:hover {
+    background-color: #0056b3;
+  }
+  
+   .talent-details-fields {
+    display: flex;
+   flex-wrap: wrap; 
+    align-items: center;
+    gap: 20px; 
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 15px;
+  }
+  
+  .talent-details-fields .form-group {
+    flex: 1 1 calc(14%); 
+    min-width: 150px;
+  }
+  
+  .talent-details-fields .form-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .talent-details-fields .form-group input,
+  .talent-details-fields .form-group select {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .talent-details-fields .form-group:last-child {
+    margin-right: 0; 
+  }
+  
+  @media (max-width: 768px) {
+    .talent-details-fields {
+      flex-direction: column; 
+    }
+    .talent-details-fields .form-group {
+      width: 100%;
+    }
+  }
+  
